@@ -44,7 +44,7 @@ function setCookie(name, value, days) {
   // Function to update countdown
   function updateCountdown() {
     // Set the date for the countdown (replace 'endDate' with your desired end date)
-    const endDate = new Date('2025-01-08').getTime(); // Example date (year, month - 1, day)
+    const endDate = new Date('2025-01-13').getTime(); // Example date (year, month - 1, day)
     
     // Get the current date and time
     const now = new Date().getTime();
