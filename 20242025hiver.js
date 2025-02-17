@@ -28,7 +28,7 @@ function setCookie(name, value, days) {
     const cookieValue = parseInt(getCookie('bannerDisplayCount')) || 0;
     const today = new Date();
     const lastDisplayed = new Date(parseInt(getCookie('lastDisplayed')) || 0);
-    const displayLimit = 7;
+    const displayLimit = 5;
   
     if (
       today.toDateString() !== lastDisplayed.toDateString() ||
@@ -44,7 +44,7 @@ function setCookie(name, value, days) {
   // Function to update countdown
   function updateCountdown() {
     // Set the date for the countdown (replace 'endDate' with your desired end date)
-    const endDate = new Date('2025-01-13').getTime(); // Example date (year, month - 1, day)
+    const endDate = new Date('2025-03-10').getTime(); // Example date (year, month - 1, day)
     
     // Get the current date and time
     const now = new Date().getTime();
@@ -75,7 +75,7 @@ function setCookie(name, value, days) {
   banner.href = 'https://galilee.ac/local/membership/plan.php';
   banner.classList.add('countdown-banner');
   banner.innerHTML = `
-    <p>🎄 Plus que <span id="demo"></span> pour profiter des <span id="discountText">70% de réduction!</span> 🎁</p>
+    <p>⛷️ Plus que <span id="demo"></span> pour profiter des <span id="discountText">70% de réduction!</span> 🎁</p>
   `;
   
   // Style the banner
