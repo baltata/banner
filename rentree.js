@@ -75,7 +75,7 @@ function setCookie(name, value, days) {
   banner.href = 'https://galilee.ac/local/membership/plan.php';
   banner.classList.add('countdown-banner');
   banner.innerHTML = `
-    <p> <span id="demo"></span> Offre spécial rentrée <span id="discountText">1 an pour 59.99€ !</span> 🎁</p>
+    <p>  Offre spécial rentrée <span id="discountText">1 an pour 59.99€ !</span> 🎁⌛<span id="demo"></span>⌛</p>
   `;
   
   // Style the banner
